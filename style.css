@@ -1,5 +1,4 @@
-*
- {
+* {
     padding: 0;
     margin: 0;
 }
@@ -10,20 +9,35 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
     }
 
-    .header img {
+.header img {
     width: 170px;
     float: left;
+    background: transparent;
     }
 
-    .login-btn {
+.login-btn {
         width: 100px;
         padding: 8px 0;
         outline: none !important;
         border: 2px solid #fff;
         border-radius: 50px;
         background: transparent;
-        color: #fff ;
+        color: #fff;
+        float: right;
 
+    }
+
+ .header h1 {
+        color: #fff;
+        padding-top: 200px;
+        padding-bottom: 0;
+        font-size: 55px;
+    }
+
+    .header p {
+        margin: 18px 0;
     }
