@@ -62,10 +62,14 @@
         box-shadow: none !important;
     }
 
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+      }
 /*features*/
 
     .features {
-        padding: 100px 0;
+        padding: 100px 0; 
     }
 
     h1 {
@@ -119,4 +123,24 @@
         font-weight: 600;
         margin-top: 20px;
 
+    }
+
+   .fa {
+        margin-right: 5px;
+    }
+
+    .feature-box {
+        box-shadow: 0 0 10px 1px rgba(173,216,230);
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+    /* Responsive layout - makes a one column layout instead of a two-column layout */
+    @media (max-width: 800px) {
+        .flex-container {
+          flex-direction: column;
+        }
     }
