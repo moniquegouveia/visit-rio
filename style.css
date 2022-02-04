@@ -134,6 +134,35 @@
         margin-bottom: 30px;
     }
 
+    .gallery {
+        padding: 100px 0;
+        background: #efefef;
+        
+    }
+    .gallery-box {
+        position: relative;
+        margin-bottom: 30px;
+        display: block;
+       
+    }
+    .gallery-box img {
+        width: 100%;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+        display: block;
+        }
+
+        .gallery-box img:hover {
+            transform: scale(1.1);
+        }
+
+        .col-md-3 {
+            display: flex;
+            width: 90%;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
 
 
 
