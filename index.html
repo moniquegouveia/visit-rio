@@ -15,6 +15,16 @@
         <button type="button" class="login-btn btn btn-warning">Login</button>
         </div>
         <h1>Visit Rio de Janeiro</h1>
+        <script>
+            const hero = document.querySelector('.hero')
+            const text = hero.querySelector('.h1')
+
+            function shadow(e) {
+
+            }
+
+            hero addEventListener('mousemove')
+        </script>
         <p>A guide to The Wonderful City</p>
         <div class="d-flex justify-content-center">
             <div class="input-group">
@@ -27,9 +37,7 @@
     </section>
     <section class="features">
         <h1>What to do</h1>
-        <div class="flex-container">
-            <div class="row">
-            <div class="col-md-4">
+            <header class="col-md-4">
                 <div class="feature-box">
                     <div class="feature-img">
                         <img src="assets/2.jpg" alt="">
@@ -54,7 +62,7 @@
                     </span>
                 </div>
             </div>
-        </div>
+            </header>
      </div>
      <div class="col-md-4">
         <div class="feature-box">
@@ -111,13 +119,31 @@
         <h1>Travel Gallery</h1>
         <div class="container">
             <div class="row">
+                <div class="column">
                 <div class="col-md-3">
-                    <div class="gallery-box">
-                    <img src="assets/travel-1.jpg" alt="">
-                    <img src="assets/travel-2.jpg" alt="">
-                    <img src="assets/travel-3.jpg" alt="">
-                    <img src="assets/travel-4.jpg" alt="">
-                    <img src="assets/travel-5.jpg" alt="">
+                    <ul class="gallery-box">
+                   <li><img src="assets/travel-1.jpg" alt=""></li>
+                   <li><img src="assets/travel-2.jpg" alt=""></li>
+                   <li><img src="assets/travel-3.jpg" alt=""></li>
+                   <li><img src="assets/travel-4.jpg" alt=""></li>
+                   <li><img src="assets/travel-5.jpg" alt=""></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="banner-highlights">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2>Get 30% on top destinations.</h2>
+                        <p>Book your tickets to Rio and avail 30% discount</p>
+                        <div class="col-md-8">
+                            <button type="button" class="booking-btn">Book now!</button>
+
+                        </div>
                     </div>
                 </div>
             </div>
